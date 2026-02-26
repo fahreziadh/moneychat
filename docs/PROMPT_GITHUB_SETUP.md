@@ -17,7 +17,7 @@ Baca file docs/ROADMAP.md di repo ini. Berdasarkan isinya, lakukan:
 
 2. Buat GitHub Issues untuk SETIAP sub-item di ROADMAP.md (1.1, 1.2, dst).
    Aturan:
-   - Title: padat, awali dengan emoji yang relevan
+   - Title: padat
    - Body: tulis dalam Bahasa Indonesia, format markdown
    - Setiap issue WAJIB punya:
      - Deskripsi singkat (1-2 kalimat) tentang apa yang harus dilakukan
