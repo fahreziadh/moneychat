@@ -37,6 +37,7 @@ export default defineSchema({
     date: v.string(), // ISO date string "YYYY-MM-DD"
     rawMessage: v.string(),
     llmConfidence: v.optional(v.number()),
+    imageId: v.optional(v.id("_storage")),
   })
     .index("by_user_date", ["userId", "date"])
     .index("by_group_date", ["groupId", "date"])
