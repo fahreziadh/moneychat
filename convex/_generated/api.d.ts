@@ -8,6 +8,8 @@
  * @module
  */
 
+import type * as groupMembers from "../groupMembers.js";
+import type * as groups from "../groups.js";
 import type * as users from "../users.js";
 
 import type {
@@ -17,6 +19,8 @@ import type {
 } from "convex/server";
 
 declare const fullApi: ApiFromModules<{
+  groupMembers: typeof groupMembers;
+  groups: typeof groups;
   users: typeof users;
 }>;
 
