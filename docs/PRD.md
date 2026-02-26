@@ -22,6 +22,7 @@ Chat-based expense tracker yang se-simple kirim pesan ke teman. User chat biasa,
 - **Sebagai user**, saya bisa kirim "makan siang 35rb" dan otomatis tercatat dengan kategori yang benar
 - **Sebagai user**, saya bisa kirim dalam format apapun: "35k makan", "lunch 35000", "makan siang tiga puluh lima ribu"
 - **Sebagai user**, saya bisa log untuk tanggal lain: "kemarin bensin 50rb"
+- **Sebagai user**, saya bisa foto struk/receipt dan otomatis tercatat (via Gemini Vision)
 
 ### Family Groups
 - **Sebagai user**, saya bisa buat family group (misal: "Rumah Tangga", "Ortu")
